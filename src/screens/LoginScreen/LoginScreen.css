@@ -1,0 +1,23 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 2rem;
+    
+  }
+
+
+  .login{
+    background-image: url("../../note1.jpg");
+    background-position: center;
+    background-size: cover;
+
+  }
+
+
+
+
