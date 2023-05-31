@@ -1,4 +1,4 @@
 const env={
-    apiurl:"https://note-backend-lrox.onrender.com"
+    apiurl:"http://localhost:5000"
 }
 export default env
