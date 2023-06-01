@@ -30,9 +30,9 @@ function CreateNote() {
   
     const submitHandler = (e) => {
       e.preventDefault();
- 
-      if (!title || !content || !category) return;
       dispatch(createNoteAction(title, content, category));
+      if (!title || !content || !category) return;
+    
   
       resetHandler();
     //   history.push("/mynotes");
